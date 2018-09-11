@@ -20,7 +20,7 @@ public class DemoJavaSpringApplicationTests {
 	
 	@Test
 	public void failingTest() {
-		assertEquals(0,1, "failing test");
+		assertEquals(2,1);
 	}
 
 }
