@@ -16,5 +16,10 @@ public class DemoJavaSpringApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	
+	@Test
+	public void failingTest() {
+		assertEquals(0,1, "failing test");
+	}
 
 }
