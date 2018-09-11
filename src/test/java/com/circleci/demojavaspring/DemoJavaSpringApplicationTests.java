@@ -27,31 +27,31 @@ public class DemoJavaSpringApplicationTests {
 	@Test 
 	public void HistoryFrameworkInterface_SetCountrytoEmptyString() {
 		Random rand = new Random();
-		assertEquals(2,rand.nextInt(3));
+		assertEquals(2,rand.nextInt(2));
 	}
 	
 	@Test 
 	public void MobileHub_VerifyRenameTicketFromContextMenu() {
 		Random rand = new Random();
-		assertEquals(2,rand.nextInt(4));
+		assertEquals(2,rand.nextInt(3));
 	}
 	
 	@Test 
 	public void HooksProviderQueryOnDemandInvalidPublisherId() {
 		Random rand = new Random();
-		assertEquals(1,rand.nextInt(2));
+		assertEquals(1,rand.nextInt(1));
 	}
 	
 	@Test 
 	public void ServiceHub_DeleteHistoryComments() {
 		Random rand = new Random();
-		assertEquals(2,rand.nextInt(5));
+		assertEquals(2,rand.nextInt(3));
 	}
 	
 	@Test 
 	public void ServiceHub_DeleteHistoryCommentsLong() {
 		Random rand = new Random();
-		assertEquals(2,rand.nextInt(7));
+		assertEquals(2,rand.nextInt(3));
 	}
 	
 	@Test 
